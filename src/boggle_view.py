@@ -4,7 +4,7 @@ from boggle_model import BoggleState
 class BoggleView:
 
     def __init__(self):
-        #added comment
+        #added comment to test
         self._root_window = tk.Tk()
         self._root_window.title("Boggle")
         self._game_state = BoggleState()
